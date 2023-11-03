@@ -18,13 +18,13 @@ Have fun creating your portfolio on this template!!! -->
     <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
 
     <!-- Title: add your Portfolio websites's title here -->
-    <title>[Your name here] | Developer</title>
+    <title>Reibjok Othow | Developer</title>
 
     <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
     <meta name="keywords" content="[username], [name], skill" />
 
     <!-- Improve your SEO by adding a small descrption of you -->
-    <meta name="description" content="[Your name here] | Developer" />
+    <meta name="description" content="Reibjok Othow | Developer" />
 
     <!-- Add a your png Logo to the assets folder and change the href attr accordingly  -->
     <link rel="icon" type="image/png" href="./assets/devfolio-logo.png" />
@@ -67,6 +67,7 @@ Have fun creating your portfolio on this template!!! -->
     <!-- link tags -->
     <link rel="preload" as="style" href="./css/main.css" />
     <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/resume_styles.css" />
 
     <!-- FontAwesome Icons link -->
     <link
@@ -99,18 +100,22 @@ Have fun creating your portfolio on this template!!! -->
       gtag("config", "UA-122228201-4")
     </script>
     <!-- End of Google Analytics -->
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- End of Bootstrap -->
   </head>
   <body>
     <!-- Hero Section -->
     <div id="hero">
       <section class="container">
         <h1 class="hero-title">
-          Hi, my name is <span class="text-color-main name">Your Name</span>
+          Hi, my name is <span class="text-color-main name">Reibjok Othow</span>
           <br />
-          I'm the Unknown Developer.
+          I'm a Developer.
         </h1>
         <p class="hero-cta">
-          <a class="cta-btn cta-btn--hero" href="#about">Get in touch</a>
+          <a class="cta-btn cta-btn--hero" href="#contact">Get in touch</a>
         </p>
       </section>
       <a href="#about" class="scroll-down-link" aria-label="scroll-down">
@@ -127,7 +132,7 @@ Have fun creating your portfolio on this template!!! -->
           <div class="about-wrapper__image">
             <img
               class="img-fluid"
-              src="./assets/profile.png"
+              src="./assets/about_me.gif"
               alt="Profile Image"
               width="450"
               height="350"
@@ -135,20 +140,15 @@ Have fun creating your portfolio on this template!!! -->
           </div>
           <div class="about-wrapper__info">
             <p class="about-wrapper__info-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Temporibus quae repellat, ad omnis distinctio velit saepe expedita
-              architecto cumque veritatis adipisci. Sapiente non, saepe hic
-              adipisci doloribus quisquam recusandae et.
+              Dedicated Computer Science student with a genuine passion for innovative problem-solving and technology. Proficient in Python, Java, and web development, I recently earned my AWS Solutions Architect certification. I have successfully delivered projects for both venture capital and charity organizations. 
             </p>
             <p class="about-wrapper__info-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
-              obcaecati doloribus qui praesentium quae veniam esse mollitia
-              consequuntur nisi minima quasi et fugit quidem enim recusandae
-              delectus, iusto culpa rerum?
+              A collaborative team player, I thrive in high-paced, agile environments, valuing genuine connections and teamwork. Eager to contribute my diverse skills and enthusiasm to a highly agile fast paced environment. 
             </p>
             <span class="about-wrapper__cta">
-              <a href="#" class="cta-btn cta-btn--resume">View Resume</a>
+              <a class="cta-btn cta-btn--resume" data-bs-toggle="modal" data-bs-target="#resumeModal">View Resume</a>
             </span>
+
           </div>
         </div>
       </div>
@@ -164,22 +164,23 @@ Have fun creating your portfolio on this template!!! -->
           <!-- Each .row is a project -->
           <article class="row">
             <div class="project-wrapper__text">
-              <h3 class="project-wrapper__text-title">Project Title</h3>
+              <h3 class="project-wrapper__text-title">Wayra Ltd Venture Capital Portfolio Management Suite</h3>
               <p class="project-wrapper__text-info">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Deleniti voluptas, sit nam perspiciatis tempore aspernatur ullam
-                necessitatibus impedit repellendus vero sed ipsa eos beatae ab
-                sint saepe nostrum! Enim, perferendis.
+                Successfully spearheaded a 10-person team to deliver a robust portfolio 
+                management suite for Wayra Ltd, a prominent Venture Capital company. 
+                Leveraged expertise in Python, Django, and JavaScript to craft a seamless 
+                solution, integrating vital services like Airtable and Sharepoint via OAuth2 
+                API flows, ensuring seamless client operations.
               </p>
               <div class="project-wrapper__text-btns">
                 <a
-                  href="#"
+                  href="http://szahid29a.pythonanywhere.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                   class="cta-btn cta-btn--hero cta-btn--projects"
                   >See Live</a
                 >
-                <a href="#" target="_blank" class="cta-btn text-color-main"
+                <a href="https://github.com/AdnanTurkay/team-kinkajou" target="_blank" class="cta-btn text-color-main"
                   >Source Code</a
                 >
               </div>
@@ -189,7 +190,7 @@ Have fun creating your portfolio on this template!!! -->
               <a href="#" target="_blank" rel="noopener noreferrer">
                 <div class="thumbnail rounded">
                   <img
-                    src="./assets/project.png"
+                    src="./assets/wayra.png"
                     class="img-fluid"
                     alt="Project Image"
                     width="1366"
@@ -204,22 +205,24 @@ Have fun creating your portfolio on this template!!! -->
           <!-- Each .row is a project -->
           <article class="row">
             <div class="project-wrapper__text">
-              <h3 class="project-wrapper__text-title">Project Title</h3>
+              <h3 class="project-wrapper__text-title">JPMorgan Code for Good Hackathon (2022)</h3>
               <p class="project-wrapper__text-info">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Deleniti voluptas, sit nam perspiciatis tempore aspernatur ullam
-                necessitatibus impedit repellendus vero sed ipsa eos beatae ab
-                sint saepe nostrum! Enim, perferendis.
+                Led a skilled team of 4 in creating a secure logging and 
+                attendance system for Ignite Hubs, a charity organization. Utilized Python, 
+                Flask, JavaScript, Swift, and React, integrating multi-factor 
+                authentication via QR codes. Developed user-friendly iOS and web 
+                applications, ensuring seamless and safe attendance tracking 
+                for students attending free classes
               </p>
               <div class="project-wrapper__text-btns">
                 <a
-                  href="#"
+                  href="https://www.linkedin.com/posts/reibjok-othow-45aa0822b_codeforgood-cfg-c4g-activity-6992535593867956224-dUjE?utm_source=share&utm_medium=member_desktop"
                   target="_blank"
                   rel="noopener noreferrer"
                   class="cta-btn cta-btn--hero cta-btn--projects"
-                  >See Live</a
+                  >Linkedin</a
                 >
-                <a href="#" target="_blank" class="cta-btn text-color-main"
+                <a href="https://github.com/cfglondon22/team-10" target="_blank" class="cta-btn text-color-main"
                   >Source Code</a
                 >
               </div>
@@ -229,7 +232,7 @@ Have fun creating your portfolio on this template!!! -->
               <a href="#" target="_blank" rel="noopener noreferrer">
                 <div class="thumbnail rounded">
                   <img
-                    src="./assets/project.png"
+                    src="./assets/jpmorganhackathon.JPG"
                     class="img-fluid"
                     alt="Project Image"
                     width="1366"
@@ -244,12 +247,14 @@ Have fun creating your portfolio on this template!!! -->
           <!-- Each .row is a project -->
           <article class="row">
             <div class="project-wrapper__text">
-              <h3 class="project-wrapper__text-title">Project Title</h3>
+              <h3 class="project-wrapper__text-title">Personal Website</h3>
               <p class="project-wrapper__text-info">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Deleniti voluptas, sit nam perspiciatis tempore aspernatur ullam
-                necessitatibus impedit repellendus vero sed ipsa eos beatae ab
-                sint saepe nostrum! Enim, perferendis.
+                Developed a dynamic personal website using HTML, CSS, and JavaScript, 
+                hosted on Amazon S3 and distributed globally via CloudFront. Implemented 
+                a serverless API with API Gateway and Lambda, updating view counts in 
+                DynamoDB. Enabled seamless CI/CD with GitHub Actions for frontend and IaC 
+                using Terraform. Managed SSL/TLS certificates with AWS Certificate Manager, 
+                showcasing expertise in full-stack development, AWS services, and DevOps practices.
               </p>
               <div class="project-wrapper__text-btns">
                 <a
@@ -269,7 +274,7 @@ Have fun creating your portfolio on this template!!! -->
               <a href="#" target="_blank" rel="noopener noreferrer">
                 <div class="thumbnail rounded">
                   <img
-                    src="./assets/project.png"
+                    src="./assets/website_architecture_diagram.png"
                     class="img-fluid"
                     alt="Project Image"
                     width="1366"
@@ -285,13 +290,52 @@ Have fun creating your portfolio on this template!!! -->
     </section>
     <!-- End Projects Section -->
 
+    <!-- Certification Section -->
+    <section id="certifications">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title">Certifications</h2>
+        
+          <!-- Each .row is a certification -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">AWS Solutions Architect - Associate</h3>
+              <p class="project-wrapper__text-info">
+                <b>AWS Certification Number:</b> RBNPHV0282REQ4KL <br>
+                <b>Date of Certification:</b> October 2023<br>
+                Proficient in cloud solutions architecture and design using AWS 
+              </p>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <div class="container d-flex align-items-center justify-content-center">
+                  <div class="rounded">
+                    <img
+                      src="./assets/aws_cert.jpeg"
+                      class="img-fluid"
+                      alt="Project Image"
+                      width="300"
+                      height="300"
+                    />
+                  </div>
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+        </div>
+      </div>
+    </section>
+    <!-- END Contact Section -->
+
     <!-- Contact Section -->
     <section id="contact">
       <div class="container">
         <h2 class="section-title">Contact</h2>
         <div class="contact-wrapper">
-          <p class="contact-wrapper__text">[Put your call to action here]</p>
-          <a href="#" class="cta-btn cta-btn--resume">Call to Action</a>
+          <p class="contact-wrapper__text">Recruiter? Fellow Tech Enthusiast? Get in touch!</p>
+          <a href="mailto:reibjokothow@gmail.com" class="cta-btn cta-btn--hero">reibjokothow@gmail.com</a>
         </div>
       </div>
     </section>
@@ -300,36 +344,22 @@ Have fun creating your portfolio on this template!!! -->
     <!-- Footer Section -->
     <footer class="footer">
       <div class="container">
-        <a href="#hero" class="back-to-top" aria-label="go back to top">
-          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
-        </a>
+        <div class="container d-flex align-items-center justify-content-center">
+          <a href="#hero" class="back-to-top mx-auto" aria-label="go back to top">
+            <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+          </a>
+        </div>
         <div class="social-links">
           <a
-            href="#!"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="twitter"
-          >
-            <i class="fa-brands fa-twitter"></i>
-          </a>
-          <a
-            href="#!"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="instagram"
-          >
-            <i class="fa-brands fa-instagram"></i>
-          </a>
-          <a
-            href="#!"
+            href="mailto:reibjokothow@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="codepen"
           >
-            <i class="fa-brands fa-codepen"></i>
+            <i class="fa fa-envelope"></i>
           </a>
           <a
-            href="#!"
+            href="https://www.linkedin.com/in/reibjok-othow-45aa0822b/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="linkedin"
@@ -337,7 +367,7 @@ Have fun creating your portfolio on this template!!! -->
             <i class="fa-brands fa-linkedin"></i>
           </a>
           <a
-            href="#!"
+            href="https://github.com/Rebjok"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="github"
@@ -359,10 +389,215 @@ Have fun creating your portfolio on this template!!! -->
     </footer>
     <!-- END Footer Section -->
 
+    <!-- Resume Modal -->
+    <div class="modal fade" id="resumeModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <!-- Header -->
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Resume</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <!-- Body -->
+          <div class="modal-body">
+            <!-- Resume -->
+            <div class="sheet">
+              <button class="btn btn-print btn-sm btn-light" onClick="handlePrint()">
+                <i class="fa fa-print"></i>
+                Print
+              </button>
+              <div class="two-column resume">
+                <section class="resume__section resume__header">
+                  <div class="resume__content">
+                    <h1>Reibjok Othow</h1>
+                    <div class="info-item"><span class="info-label"><i class="fa fa-location-arrow"></i></span><span class="info-text">Angel Lane, Stratford, London</span></div>
+                    <div class="info-item"><span class="info-label"><i class="fa fa-envelope"></i></span><span class="info-text">reibjokothow@gmail.com</span></div>
+                  </div>
+                </section>
+                <div class="resume__columns">
+                  <div class="resume__main">
+                    <section class="resume__section resume__summary">
+                      <div class="resume__content">
+                        <div class="resume__section-title"><i class="fa fa-pencil-square-o"></i>
+                          <h2>Professional Summary</h2>
+                        </div>
+                        <div class="other">
+                          <div class="other-info">
+                            <p>
+                              <Dedicated>Computer Science student with a genuine passion for innovative problem-solving and technology. Proficient in Python, Java, and web development, I recently earned my AWS Solutions Architect certification. I have successfully delivered projects for both venture capital and charity organizations. A collaborative team player, I thrive in high-paced, agile environments, valuing genuine connections and teamwork.</Dedicated>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </section>
+                    <section class="resume__section resume__experience">
+                      <div class="resume__content">
+                        <div class="resume__section-title"><i class="fa fa-briefcase"></i>
+                          <h2>Educatioin</h2>
+                        </div>
+                        <div class="xp-item">
+                          <div class="xp-job">King's College London<br/><small>BSc Computer Science</small></div>
+                          <div class="xp-date">Sep. 2021 – Current</div>
+                          <div class="xp-detail">
+                            <ul>
+                              <li>Expected Graduation: Jul. 2024</li>
+                              <li>Classification: First Class (Expected)</li>
+                              <li>Relevant Modules: Operating Systems and Concurrency, Practical Experience of Programming and Programming Language Design Paradigms, Cryptography, Machine Learning, Pattern Recognition, Neural Networks and Deep Learning. </li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="resume__section-title"><i class="fa fa-briefcase"></i>
+                          <h2>Employment History</h2>
+                        </div>
+                        <div class="xp-item">
+                          <div class="xp-job">
+                            Software Engineering Intern
+                            <span>@ Bank of South Sudan</span><br/><small>Juba, South Sudan</small>
+                          </div>
+                          <div class="xp-date">Jul. 2019 – Aug. 2019</div>
+                          <div class="xp-detail">
+                            <ul>
+                              <li>Optimised code quality by leading code review sessions for a team of 3 developers, resulting in a 15% reduction in software bugs and enhancing overall system performance. </li>
+                              <li>Collaborated with team to successfully develop, test, and deploy 3 innovative features, leading to an increase in overall efficiency of internal software system </li>
+                              <li>Facilitated sprint planning sessions and other team meetings. </li>
+                              <li>Collaborated with cross-functional teams from various departments, ensuring seamless operation of software across the organisation.</li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="resume__section-title"><i class="fa fa-briefcase"></i>
+                          <h2>Projects</h2>
+                        </div>
+                        <div class="xp-item">
+                          <div class="xp-job">Wayra Ltd Venture Capital Portfolio Management Suite<br/></div>
+                          <div class="xp-detail">
+                            <ul>
+                              <li>Led a team of 10 people to build a portfolio management suite for a Venture Capital company called Wayra Ltd using the Django framework (python) and JavaScript. </li>
+                              <li>Played a key role in defining project requirements, designing the architecture of the system, and leading the development efforts. </li>
+                              <li>Incorporated skills in Python programming, Django web framework, RESTful API development, object-oriented design, and database design using PostgreSQL. </li>
+                              <li>Implemented the integration of external services that are fundamental to the client’s operation such as Airtable, Sharepoint and Crunchbase using OAuth2 API flows. </li>
+                            </ul>
+                          </div>
+                          <div class="xp-item"></div>
+                          <div class="xp-job">JPMorgan Code for Good Hackathon (2022) <br/></div>
+                          <div class="xp-detail">
+                            <ul>
+                              <li>Conducted a team of 4 people in the development of a secure logging and attendance taking system for students enrolled in free classes at Ignite Hubs, a charity organisation. </li>
+                              <li>Implemented technologies such as Python, Flask, JavaScript, Swift, React and multi-factor authentication using QR codes to build a clean and secure IOS and web applications for the charity organisation.</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                  <div class="resume__side">
+                    <section class="resume__section resume__skills">
+                      <div class="resume__content">
+                        <div class="resume__section-title"><i class="fa fa-align-center"></i>
+                          <h2>Skills</h2>
+                        </div>
+                        <div class="resume__text">
+                          <div class="extra">
+                            <div class="extra-info">PHP<br/><small>PHP 5 · PHP 7 · Laravel</small></div>
+                            <div class="extra-details">
+                              <div class="extra-details__progress" style="width:90%"></div>
+                            </div>
+                          </div>
+                          <div class="extra">
+                            <div class="extra-info">JavaScript<br/><small>React · React Native · Vue</small></div>
+                            <div class="extra-details">
+                              <div class="extra-details__progress" style="width:87%"></div>
+                            </div>
+                          </div>
+                          <div class="extra">
+                            <div class="extra-info">HTML<br/><small>HTML5 · Markdown · Pug</small></div>
+                            <div class="extra-details">
+                              <div class="extra-details__progress" style="width:100%"></div>
+                            </div>
+                          </div>
+                          <div class="extra">
+                            <div class="extra-info">CSS<br/><small>Stylus · Sass · Bootstrap</small></div>
+                            <div class="extra-details">
+                              <div class="extra-details__progress" style="width:100%"></div>
+                            </div>
+                          </div>
+                          <div class="extra">
+                            <div class="extra-info">DevOps<br/><small>Docker · Shell · AWS · CI/CD</small></div>
+                            <div class="extra-details">
+                              <div class="extra-details__progress" style="width:82%"></div>
+                            </div>
+                          </div>
+                          <div class="extra">
+                            <div class="extra-info">Databases<br/><small>PostgreSQL · MySQL · Elasticsearch · Redis</small></div>
+                            <div class="extra-details">
+                              <div class="extra-details__progress" style="width:80%"></div>
+                            </div>
+                          </div>
+                          <div class="extra">
+                            <div class="extra-info">Operating Systems<br/><small>
+                                <i class="fa fa-linux"></i> GNU/Linux ·
+                                <i class="fa fa-apple"></i> Mac OS ·
+                                <i class="fa fa-windows"></i> Windows</small></div>
+                            <div class="extra-details">
+                              <div class="extra-details__progress" style="width:90%"></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </section>
+                    <section class="resume__section resume__skills">
+                      <div class="resume__content">
+                        <div class="resume__section-title"><i class="fa fa-align-center"></i>
+                          <h2>Certifications</h2>
+                        </div>
+                        <div class="resume__text">
+                          <div class="extra">
+                            <div class="extra-info">AWS Certified Solutions Architect - Associate<br/>
+                              <ul></ul>
+                              <li>AWS, Certification Number: RBNPHV0282REQ4KL  </li>
+                              <li>Date of Certification: October 2023 </li>
+                              <li>Proficient in cloud solutions architecture and design using AWS </li>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </section>
+                    <section class="resume__section resume__languages">
+                      <div class="resume__content">
+                        <div class="resume__section-title"><i class="fa fa-globe"></i>
+                          <h2>Languages</h2>
+                        </div>
+                        <div class="extra">
+                          <div class="extra-info">English</div>
+                          <div class="extra-details">
+                            <div class="extra-details__progress" style="width:100%"></div>
+                          </div>
+                        </div>
+                        <div class="extra">
+                          <div class="extra-info">Arabic</div>
+                          <div class="extra-details">
+                            <div class="extra-details__progress" style="width:30%"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+    <!-- END of Resume Modal -->
+
     <script>
       document.getElementById("year").textContent = new Date().getFullYear()
     </script>
     <script src="./javascript/vanilla-tilt.min.js"></script>
     <script type="text/javascript" src="./javascript/valtilt.js"></script>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- End of Bootstrap javascript -->
+
   </body>
 </html>
