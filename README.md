@@ -5,11 +5,13 @@ This is a personal website. It is also my attempt at the cloud resume challenge 
 <img src="assets/website_architecture_diagram.png"/>
 
 Services Used:
-
-S3
-AWS CloudFront
-Certificate Manager
-AWS Lambda
-Dynamo DB
-GitHub Actions
-Terraform
+<ul>
+  <li>S3</li>
+  <li>AWS CloudFront</li>
+  <li>Certificate Manager</li>
+  <li>Route 53</li>
+  <li>AWS Lambda</li>
+  <li>Dynamo DB</li>
+  <li>GitHub Actions</li>
+  <li>Terraform</li>
+</ul>
