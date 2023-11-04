@@ -2,7 +2,7 @@
 This is a personal website. It is also my attempt at the cloud resume challenge (AWS version) by Forrest Brazeal. What is Cloud Resume Challenge? - The Cloud Resume Challenge is a multiple-step resume project which helps build and demonstrate skills fundamental to pursuing a career in Cloud.
 
 ## Architecture
-<img src="assets/website_architecture_diagram.png"/>
+<img src="website/assets/website_architecture_diagram.png"/>
 
 Services Used:
 <ul>
